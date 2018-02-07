@@ -1,0 +1,33 @@
+/* 
+    Created on : 05.02.2018, 3:45:49
+    Author     : Victor
+*/
+
+table{
+    margin: 50px 0;
+    text-align: left;
+    border-collapse: separate;
+    border: 1px solid #ddd;
+    border-spacing: 0px;
+    background: #fdfdfd;
+    font-size: 14px;
+    width: 100%;
+  }
+td,th{
+    border: 1px solid #ddd;
+    padding: 5px;
+  }
+th{
+    background: #e4e4e4;
+  }
+th a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+th.curcol{
+    background-color:#999999;
+    color:#FFFFFF
+}
